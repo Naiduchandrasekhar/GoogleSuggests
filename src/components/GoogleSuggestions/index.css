@@ -1,0 +1,53 @@
+/* Write your CSS here */
+
+.googlePic {
+  height: 100px;
+  margin-bottom: 35px;
+}
+
+.bg-container {
+  background-color: #ffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchCard {
+  min-width: 350px;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.searchIcon {
+  height: 25px;
+  margin-right: 5px;
+}
+
+.flex {
+  display: flex;
+}
+
+.searchBox {
+  width: 100%;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  font-size: 14px;
+  color: #64748b;
+  font-family: 'Roboto';
+}
+
+.unorderList {
+  margin-top: 0px;
+  padding-left: 10px;
+}
